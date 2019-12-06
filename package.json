@@ -1,0 +1,34 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mime-db": "^1.40.0",
+    "mongodb": "^3.3.0-beta2",
+    "node-static": "^0.7.11",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "name": "programmirovanie",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "10roK",
+  "license": "ISC"
+}
